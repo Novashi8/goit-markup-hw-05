@@ -698,6 +698,13 @@ footer {
   z-index: 100;
 }
 
+.overlay-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--background-white);
+  letter-spacing: 0.03em;
+}
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -721,7 +728,7 @@ footer {
   line-height: 36px;
 }
 
-.portfolio-content p {
+.content-description p {
   font-size: 16px;
   line-height: 30px;
   color: var(--color-gray);
