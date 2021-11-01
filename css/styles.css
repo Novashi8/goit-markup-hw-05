@@ -27,7 +27,13 @@ body {
 *:hover,
 *:active {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 0.3s;
+  transition-duration: 250ms;
+}
+
+div,
+button {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 ul {
@@ -395,6 +401,10 @@ footer .adress .adress-link {
   position: relative;
 }
 
+.activities-images-description p {
+  margin-top: 0;
+}
+
 .activities-images-description {
   position: absolute;
   color: var(--background-white);
@@ -506,6 +516,7 @@ footer .adress .adress-link {
 .team-socials-icon:hover,
 .team-socials-icon:focus {
   fill: currentColor;
+  transition: c;
 }
 
 .team-socials-link:hover,
