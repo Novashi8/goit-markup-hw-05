@@ -24,10 +24,10 @@ body {
   box-sizing: border-box;
 }
 
-* {
+/* * {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-}
+} */
 
 ul {
   margin: 0;
@@ -159,6 +159,8 @@ footer .logo span {
 
 .header-link {
   display: block;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .nav-items + .flex {
@@ -195,6 +197,8 @@ footer .logo span {
 .adress-link {
   display: flex;
   align-items: center;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 footer .adress .adress-link {
@@ -265,6 +269,8 @@ footer .adress .adress-link {
   border: none;
   margin-left: auto;
   margin-right: auto;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 .order-button:hover,
 .order-button:focus {
@@ -287,6 +293,8 @@ footer .adress .adress-link {
   left: 0;
   background: #00000033;
   z-index: 100;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .modal-window {
@@ -500,6 +508,8 @@ footer .adress .adress-link {
   height: 44px;
   color: #afb1b8;
   border-radius: 50%;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .team-socials-icon {
@@ -540,6 +550,8 @@ footer .adress .adress-link {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .partner-item-link {
@@ -623,6 +635,8 @@ footer {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .footer-socials-item:not(:last-child) {
@@ -655,6 +669,8 @@ footer {
   border: none;
   flex: auto;
   margin-right: 8px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .potfolio-button:hover,
@@ -745,10 +761,6 @@ footer {
   justify-content: center;
 }
 
-/*.portfolio-content:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}*/
 
 .portfolio-list {
   display: flex;
