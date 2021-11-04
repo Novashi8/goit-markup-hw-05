@@ -161,6 +161,7 @@ footer .logo span {
   display: block;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  transition-property: all;
 }
 
 .nav-items + .flex {
@@ -199,6 +200,7 @@ footer .logo span {
   align-items: center;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  transition-property: all;
 }
 
 footer .adress .adress-link {
@@ -271,6 +273,7 @@ footer .adress .adress-link {
   margin-right: auto;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  transition-property: all;
 }
 .order-button:hover,
 .order-button:focus {
@@ -295,6 +298,7 @@ footer .adress .adress-link {
   z-index: 100;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  transition-property: all;
 }
 
 .modal-window {
@@ -510,6 +514,7 @@ footer .adress .adress-link {
   border-radius: 50%;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  transition-property: all;
 }
 
 .team-socials-icon {
@@ -521,7 +526,6 @@ footer .adress .adress-link {
 .team-socials-icon:hover,
 .team-socials-icon:focus {
   fill: currentColor;
-  transition: c;
 }
 
 .team-socials-link:hover,
@@ -552,6 +556,7 @@ footer .adress .adress-link {
   border-radius: 4px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  transition-property: all;
 }
 
 .partner-item-link {
@@ -637,6 +642,7 @@ footer {
   border-radius: 50%;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  transition-property: all;
 }
 
 .footer-socials-item:not(:last-child) {
@@ -671,6 +677,7 @@ footer {
   margin-right: 8px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  transition-property: all;
 }
 
 .potfolio-button:hover,
@@ -761,6 +768,10 @@ footer {
   justify-content: center;
 }
 
+/*.portfolio-content:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}*/
 
 .portfolio-list {
   display: flex;
