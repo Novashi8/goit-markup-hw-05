@@ -735,7 +735,7 @@ footer {
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: 0.5s ease;
+  transition: height 0.5s ease;
 }
 
 .overlay-test:hover .overlay {
@@ -757,6 +757,9 @@ footer {
 
 .portfolio-content a {
   display: block;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-property: box-shadow;
 }
 
 .portfolio-content a:hover,
