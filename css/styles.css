@@ -161,7 +161,7 @@ footer .logo span {
   display: block;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  transition-property: all;
+  transition-property: color;
 }
 
 .nav-items + .flex {
@@ -200,7 +200,7 @@ footer .logo span {
   align-items: center;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  transition-property: all;
+  transition-property: color;
 }
 
 footer .adress .adress-link {
@@ -273,7 +273,7 @@ footer .adress .adress-link {
   margin-right: auto;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  transition-property: all;
+  transition-property: background-color;
 }
 .order-button:hover,
 .order-button:focus {
@@ -298,7 +298,7 @@ footer .adress .adress-link {
   z-index: 100;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  transition-property: all;
+  transition-property: opacity, visibility;
 }
 
 .modal-window {
@@ -514,13 +514,16 @@ footer .adress .adress-link {
   border-radius: 50%;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  transition-property: all;
+  transition-property: color;
 }
 
 .team-socials-icon {
   height: 20px;
   width: 20px;
   fill: currentColor;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-property: color;
 }
 
 .team-socials-icon:hover,
@@ -556,7 +559,7 @@ footer .adress .adress-link {
   border-radius: 4px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  transition-property: all;
+  transition-property: color, border;
 }
 
 .partner-item-link {
@@ -642,7 +645,7 @@ footer {
   border-radius: 50%;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  transition-property: all;
+  transition-property: color;
 }
 
 .footer-socials-item:not(:last-child) {
@@ -677,7 +680,7 @@ footer {
   margin-right: 8px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  transition-property: all;
+  transition-property: box-shadow, color, background-color;
 }
 
 .potfolio-button:hover,
